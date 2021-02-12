@@ -39,9 +39,13 @@ ReactJS
   Copie todos os dados do arquivo .env.example para o .env
 
   Em seguida informe as configurações do banco de dados criado no postgresql, assim como as credenciais:
+  
   DB_HOST=IP_DO_SERVIDOR
+  
   DB_USER=NOME_DO_USUARIO
+  
   DB_PASS=SENHA
+  
   DB_NAME=NOME_DO_BANCO
 
   Ainda na raiz do projeto execute o comando de migração para criar as tabelas no banco de dados:
