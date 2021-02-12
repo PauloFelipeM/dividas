@@ -13,14 +13,17 @@ JSONPlaceholder.
 ### Tecnológias
 
 JavaScript
+
 Node.js
+
 ReactJS
 
 ### Requerimentos
 
 - [Node.js LTS version](https://nodejs.org/en/)
 - [Postgresql](https://www.postgresql.org/)
-- [yarn](https://yarnpkg.com/)
+- [yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/)
+
 
 ## Instalação
 
