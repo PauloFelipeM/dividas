@@ -17,7 +17,7 @@ class DebtController {
       user_id: Yup.number().required(),
       description: Yup.string().required(),
       date: Yup.date().required(),
-      amount: Yup.number().required(),
+      amount: Yup.string().required(),
     });
 
     if (!(await schema.isValid(req.body))) {
@@ -34,7 +34,7 @@ class DebtController {
       user_id: Yup.number().required(),
       description: Yup.string().required(),
       date: Yup.date().required(),
-      amount: Yup.number().required(),
+      amount: Yup.string().required(),
     });
 
     if (!(await schema.isValid(req.body))) {
