@@ -1,5 +1,5 @@
 <h3 align="center">
-  Sistema de gerencialmento de dívidas
+  Sistema de gerencialmento de dívidas (Desafio CODE7)
 </h3>
 
 ## :rocket: Sobre
