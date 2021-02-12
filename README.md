@@ -22,7 +22,7 @@ ReactJS
 
 - [Node.js LTS version](https://nodejs.org/en/)
 - [Postgresql](https://www.postgresql.org/)
-- [yarn](https://yarnpkg.com/) ou - [npm](https://www.npmjs.com/)
+- [yarn](https://yarnpkg.com/) ou [npm](https://www.npmjs.com/)
 
 
 ## Instalação
