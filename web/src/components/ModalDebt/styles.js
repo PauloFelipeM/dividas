@@ -13,6 +13,10 @@ export const DivModal = styled.div`
   > div {
     margin-top: 20px;
     text-align: right;
+
+    @media(max-width: 550px){
+      text-align: center;
+    }
   }
 
   label {
@@ -28,6 +32,16 @@ export const DivModal = styled.div`
     border-radius: 5px;
     box-shadow: none;
     margin-top: 5px;
+  }
+
+  button {
+    @media(max-width: 550px){
+      margin-top: 10px;
+    }
+  }
+
+  @media(max-width: 450px){
+    padding: 0;
   }
 `;
 

@@ -25,6 +25,14 @@ export const Container = styled.div`
 
   > div{
     display: flex;
+
+    @media(max-width: 350px){
+      flex-wrap: wrap;
+    }
+  }
+
+  @media(max-width: 620px){
+    margin: 50px 15px;
   }
 `;
 
@@ -50,6 +58,12 @@ export const BtnNew = styled.button.attrs({
 
   &:hover {
     background: ${darken(0.03, '#7159c1')};
+  }
+
+  @media(max-width: 350px){
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 5px;
   }
 `;
 
